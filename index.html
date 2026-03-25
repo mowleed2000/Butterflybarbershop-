@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Butterfly Barbershop Shepherd's Bush | Traditional Haircuts &amp; Shaves · W12</title>
+<meta content="Butterfly Barbershop by Hamada. Over 30 years of traditional barbering in Shepherd's Bush. Expert haircuts, hot towel shaves, and grooming from £15. Walk-ins welcome." name="description"/>
+<!-- Fonts -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&amp;family=Oswald:wght@500;700&amp;family=Source+Sans+3:wght@400;600&amp;family=Special+Elite&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "primary": "#af101a",
+              "primary-container": "#d32f2f",
+              "secondary": "#5f5e5e",
+              "surface": "#f9f9f9",
+              "surface-container-low": "#f3f3f3",
+              "surface-container-lowest": "#ffffff",
+              "on-surface": "#1a1c1c",
+              "on-primary": "#ffffff",
+              "outline-variant": "#e4beba",
+            },
+            fontFamily: {
+              "serif": ["Playfair Display", "serif"],
+              "sans": ["Source Sans 3", "sans-serif"],
+              "oswald": ["Oswald", "sans-serif"],
+              "special": ["Special Elite", "cursive"]
+            },
+            borderRadius: {
+              "none": "0px",
+              "DEFAULT": "0px",
+            },
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        
+        /* Barber Pole Animation */
+        @keyframes rotate-pole {
+            from { background-position: 0 0; }
+            to { background-position: 0 100px; }
+        }
+        .barber-pole-stripes {
+            background: repeating-linear-gradient(
+                45deg,
+                #af101a,
+                #af101a 20px,
+                #ffffff 20px,
+                #ffffff 40px,
+                #1e3a8a 40px,
+                #1e3a8a 60px,
+                #ffffff 60px,
+                #ffffff 80px
+            );
+            background-size: 100% 100px;
+            animation: rotate-pole 2s linear infinite;
+        }
+
+        .ledger-line {
+            flex-grow: 1;
+            border-bottom: 1px dotted #DADADA;
+            margin: 0 8px 4px 8px;
+        }
+
+        .map-container iframe {
+            width: 100%;
+            height: 450px;
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-sans selection:bg-primary-container selection:text-white">
+<!-- 1. TopNavBar -->
+<nav class="fixed top-0 left-0 w-full z-50 bg-white border-b-2 border-primary-container px-6 py-4 flex justify-between items-center h-20">
+<div class="flex items-baseline gap-2">
+<span class="font-serif text-2xl font-bold text-primary">Butterfly</span>
+<span class="font-oswald text-xl font-bold uppercase tracking-tight text-black">Barbershop</span>
+</div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="font-oswald font-bold uppercase text-secondary hover:text-primary transition-colors duration-200" href="#services">Services</a>
+<a class="font-oswald font-bold uppercase text-secondary hover:text-primary transition-colors duration-200" href="#about">About</a>
+<a class="font-oswald font-bold uppercase text-secondary hover:text-primary transition-colors duration-200" href="#prices">Prices</a>
+<a class="font-oswald font-bold uppercase text-secondary hover:text-primary transition-colors duration-200" href="#find-us">Find Us</a>
+</div>
+<a class="bg-primary text-white font-oswald font-bold uppercase px-6 py-2.5 transition-all active:opacity-80 active:scale-95" href="tel:02087350661">
+            Call Us
+        </a>
+</nav>
+<main class="pt-20">
+<!-- 2. Hero Section -->
+<section class="relative min-h-[921px] flex items-center overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img alt="Butterfly Barbershop Shopfront at Shepherd's Bush Green" class="w-full h-full object-cover brightness-50" src="assets/hero-exterior.jpg"/>
+</div>
+<div class="container mx-auto px-6 relative z-10 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+<div class="max-w-xl">
+<div class="w-[60px] h-[3px] bg-primary mb-6"></div>
+<h1 class="font-serif text-7xl md:text-8xl font-bold text-white mb-4 leading-none">
+                        Butterfly<br/>Barbershop.
+                    </h1>
+<p class="font-oswald text-brand-gold uppercase tracking-[0.2em] font-bold mb-8 text-primary">
+                        BY HAMADA · SHEPHERD'S BUSH · SINCE 30+ YEARS
+                    </p>
+<p class="text-xl text-white mb-10 leading-relaxed font-sans">
+                        Traditional haircuts, shaves, and grooming — done properly. Walk-ins welcome on Shepherd's Bush Green.
+                    </p>
+<div class="flex flex-wrap gap-4 mb-8">
+<a class="bg-primary text-white font-oswald font-bold uppercase px-8 py-4 text-lg flex items-center gap-2" href="tel:02087350661">
+<span class="material-symbols-outlined">call</span>
+                            020 8735 0661
+                        </a>
+<a class="bg-white border-2 border-primary text-primary font-oswald font-bold uppercase px-8 py-4 text-lg" href="#prices">
+                            See Our Prices
+                        </a>
+</div>
+<p class="font-special text-sm text-white/80">
+                        Traditional Barber Haircuts &amp; Shaves · Hot Towel Service · Established Shepherd's Bush
+                    </p>
+</div>
+<!-- Animated Barber Pole -->
+<div class="hidden md:flex justify-end">
+<div class="relative w-[60px] h-[180px] border-4 border-stone-800 bg-stone-200 shadow-2xl">
+<div class="absolute -top-6 left-1/2 -translate-x-1/2 w-16 h-8 bg-gradient-to-b from-stone-300 to-stone-500 rounded-t-full border-x-2 border-t-2 border-stone-800"></div>
+<div class="barber-pole-stripes w-full h-full overflow-hidden"></div>
+<div class="absolute -bottom-6 left-1/2 -translate-x-1/2 w-16 h-8 bg-gradient-to-t from-stone-300 to-stone-500 rounded-b-full border-x-2 border-b-2 border-stone-800"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. Trust Bar -->
+<section class="bg-primary-container py-6">
+<div class="container mx-auto px-6">
+<div class="flex flex-col md:flex-row justify-center items-center gap-6 md:gap-16 text-white font-oswald font-bold uppercase tracking-widest text-lg text-center">
+<span>30+ YEARS EXPERIENCE</span>
+<span class="hidden md:block opacity-30">|</span>
+<span>WALK-INS WELCOME</span>
+<span class="hidden md:block opacity-30">|</span>
+<span>HAIRCUTS FROM £15</span>
+</div>
+</div>
+</section>
+<!-- 4. About Section -->
+<section class="py-24 bg-surface" id="about">
+<div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
+<div>
+<div class="w-[60px] h-[3px] bg-primary mb-6"></div>
+<p class="font-oswald text-primary font-bold uppercase tracking-widest mb-4">ESTABLISHED · SHEPHERD'S BUSH</p>
+<h2 class="font-serif text-5xl md:text-6xl font-bold text-black mb-8 leading-tight">
+                        Over 30 years<br/>of proper cuts.
+                    </h2>
+<div class="space-y-6 text-secondary text-lg leading-relaxed">
+<p>For three decades, Hamada and his team have been the heartbeat of Shepherd's Bush Green. We don't do gimmicks or "lounge" experiences—we do traditional barbering with the skill and speed that only thirty years in the chair can teach.</p>
+<p>Located in the historic Romney Court, we've seen the area change, but our commitment to a reliable, clean, and professional service remains exactly the same as the day we opened.</p>
+</div>
+<div class="grid grid-cols-3 gap-8 mt-12 pt-12 border-t border-stone-200">
+<div>
+<p class="font-serif text-4xl font-bold text-primary">30+</p>
+<p class="font-oswald text-sm font-bold uppercase text-stone-500">Years Experience</p>
+</div>
+<div>
+<p class="font-serif text-4xl font-bold text-primary">£15</p>
+<p class="font-oswald text-sm font-bold uppercase text-stone-500">Starting Price</p>
+</div>
+<div>
+<p class="font-serif text-4xl font-bold text-primary">W12</p>
+<p class="font-oswald text-sm font-bold uppercase text-stone-500">Shepherd's Bush</p>
+</div>
+</div>
+</div>
+<div class="relative group">
+<div class="absolute -inset-4 border-2 border-primary/20 pointer-events-none transition-all group-hover:-inset-2"></div>
+<img alt="Barber and client in action" class="w-full aspect-[4/5] object-cover border-l-2 border-primary shadow-2xl" src="assets/barber-action.jpg"/>
+</div>
+</div>
+</section>
+<!-- 5. Services & Pricing -->
+<section class="py-24 bg-[#F5F5F5] relative overflow-hidden" id="services">
+<div class="absolute inset-0 z-0">
+<img alt="Butterfly Barbershop window view" class="w-full h-full object-cover" src="assets/window-offer.jpg"/>
+<div class="absolute inset-0 bg-white/85"></div>
+</div>
+<div class="container mx-auto px-6 relative z-10">
+<div class="mb-16">
+<p class="font-oswald text-primary font-bold uppercase tracking-widest mb-4">WHAT WE OFFER</p>
+<h2 class="font-serif text-5xl font-bold text-black leading-tight" id="prices">
+                        The full menu.<br/>Fair prices.
+                    </h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+<!-- Pricing Card 1 -->
+<div class="bg-white/95 backdrop-blur-sm p-8 flex flex-col h-full border-b-4 border-transparent hover:border-primary transition-all shadow-sm">
+<div class="flex justify-between items-start mb-4">
+<h3 class="font-oswald font-bold text-xl uppercase text-black">Clipper Haircut</h3>
+<span class="font-serif font-bold text-2xl text-primary">£15</span>
+</div>
+<p class="text-stone-400 text-sm mb-4 font-sans uppercase font-bold tracking-tighter">25 MINS</p>
+<p class="text-secondary text-base leading-relaxed mb-6">A clean, uniform cut using high-quality clippers. Simple, efficient, and professional.</p>
+</div>
+<!-- Pricing Card 2 -->
+<div class="bg-white/95 backdrop-blur-sm p-8 flex flex-col h-full border-b-4 border-transparent hover:border-primary transition-all shadow-sm">
+<div class="flex justify-between items-start mb-4">
+<h3 class="font-oswald font-bold text-xl uppercase text-black">Beard Trimming &amp; Shaving</h3>
+<span class="font-serif font-bold text-2xl text-primary">£15</span>
+</div>
+<p class="text-stone-400 text-sm mb-4 font-sans uppercase font-bold tracking-tighter">30 MINS</p>
+<p class="text-secondary text-base leading-relaxed mb-6">Expert beard shaping and neck shave to keep your facial hair looking sharp and tidy.</p>
+</div>
+<!-- Pricing Card 3 -->
+<div class="bg-white/95 backdrop-blur-sm p-8 flex flex-col h-full border-b-4 border-transparent hover:border-primary transition-all shadow-sm">
+<div class="flex justify-between items-start mb-4">
+<h3 class="font-oswald font-bold text-xl uppercase text-black">Hot Towel Shave</h3>
+<span class="font-serif font-bold text-2xl text-primary">£20</span>
+</div>
+<p class="text-stone-400 text-sm mb-4 font-sans uppercase font-bold tracking-tighter">30 MINS</p>
+<p class="text-secondary text-base leading-relaxed mb-6">The ultimate traditional experience. Steam, hot towels, and a straight-razor finish.</p>
+</div>
+<!-- Pricing Card 4 -->
+<div class="bg-white/95 backdrop-blur-sm p-8 flex flex-col h-full border-b-4 border-transparent hover:border-primary transition-all shadow-sm">
+<div class="flex justify-between items-start mb-4">
+<h3 class="font-oswald font-bold text-xl uppercase text-black">Skin Fade</h3>
+<span class="font-serif font-bold text-2xl text-primary">£18</span>
+</div>
+<p class="text-stone-400 text-sm mb-4 font-sans uppercase font-bold tracking-tighter">30 MINS</p>
+<p class="text-secondary text-base leading-relaxed mb-6">Precision blending from skin to hair. A sharp, modern look executed with traditional skill.</p>
+</div>
+<!-- Pricing Card 5 -->
+<div class="bg-white/95 backdrop-blur-sm p-8 flex flex-col h-full border-b-4 border-transparent hover:border-primary transition-all shadow-sm">
+<div class="flex justify-between items-start mb-4">
+<h3 class="font-oswald font-bold text-xl uppercase text-black">Wash &amp; Styling</h3>
+<span class="font-serif font-bold text-2xl text-primary">£21</span>
+</div>
+<p class="text-stone-400 text-sm mb-4 font-sans uppercase font-bold tracking-tighter">30 MINS</p>
+<p class="text-secondary text-base leading-relaxed mb-6">Complete hair service including wash, custom haircut, and professional styling.</p>
+</div>
+<!-- Pricing Card 6 -->
+<div class="bg-white/95 backdrop-blur-sm p-8 flex flex-col h-full border-b-4 border-transparent hover:border-primary transition-all shadow-sm">
+<div class="flex justify-between items-start mb-4">
+<h3 class="font-oswald font-bold text-xl uppercase text-black">Scissor Cut</h3>
+<span class="font-serif font-bold text-2xl text-primary">£20</span>
+</div>
+<p class="text-stone-400 text-sm mb-4 font-sans uppercase font-bold tracking-tighter">30 MINS</p>
+<p class="text-secondary text-base leading-relaxed mb-6">Traditional hand-cut techniques for natural movement and a classic tailored look.</p>
+</div>
+<!-- Pricing Card 7 -->
+<div class="bg-white/95 backdrop-blur-sm p-8 flex flex-col h-full border-b-4 border-transparent hover:border-primary transition-all shadow-sm">
+<div class="flex justify-between items-start mb-4">
+<h3 class="font-oswald font-bold text-xl uppercase text-black">Hair Colouring</h3>
+<span class="font-serif font-bold text-2xl text-primary">£25</span>
+</div>
+<p class="text-stone-400 text-sm mb-4 font-sans uppercase font-bold tracking-tighter">35 MINS</p>
+<p class="text-secondary text-base leading-relaxed mb-6">Professional grey coverage or natural hair colouring service for a refreshed appearance.</p>
+</div>
+<!-- Pricing Card 8 -->
+<div class="bg-white/95 backdrop-blur-sm p-8 flex flex-col h-full border-b-4 border-transparent hover:border-primary transition-all shadow-sm">
+<div class="flex justify-between items-start mb-4">
+<h3 class="font-oswald font-bold text-xl uppercase text-black">Wash, Styling &amp; Beard Trim</h3>
+<span class="font-serif font-bold text-2xl text-primary">£35</span>
+</div>
+<p class="text-stone-400 text-sm mb-4 font-sans uppercase font-bold tracking-tighter">1 HR</p>
+<p class="text-secondary text-base leading-relaxed mb-6">The works: Haircut, wash, style, and hot towel shave or beard sculpt.</p>
+</div>
+</div>
+<!-- Special Offer Box -->
+<div class="mt-12 bg-primary text-white p-8 flex flex-col md:flex-row items-center justify-between gap-6 shadow-xl">
+<div class="flex items-center gap-6">
+<span class="material-symbols-outlined text-4xl" style="font-variation-settings: 'FILL' 1;">stars</span>
+<div>
+<p class="font-oswald font-bold text-2xl uppercase tracking-tight">SPECIAL OFFER — SHORT BACK &amp; SIDE FROM £15</p>
+<p class="font-special text-sm opacity-90">TRADITIONAL BARBER HAIRCUTS &amp; SHAVES</p>
+</div>
+</div>
+<a class="bg-white text-primary font-oswald font-bold uppercase px-8 py-3 whitespace-nowrap hover:scale-105 transition-transform" href="tel:02087350661">
+                        Call Now
+                    </a>
+</div>
+</div>
+</section>
+<!-- 6. Shop Interior -->
+<section class="py-24 bg-surface">
+<div class="container mx-auto px-6">
+<div class="text-center mb-16">
+<h2 class="font-serif text-5xl font-bold text-black mb-4">A proper West London vibe.</h2>
+<p class="font-oswald text-secondary font-bold uppercase tracking-[0.3em]">SHEPHERDS BUSH FINEST SINCE DAY ONE</p>
+</div>
+<div class="relative overflow-hidden shadow-2xl">
+<img alt="Wider interior shot of the shop" class="w-full aspect-video object-cover" src="assets/shop-interior.jpg"/>
+</div>
+</div>
+</section>
+<!-- 7. Find Us Section -->
+<section class="py-24 bg-surface-container-low" id="find-us">
+<div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-16 items-start">
+<div class="space-y-12">
+<div>
+<div class="w-[60px] h-[3px] bg-primary mb-6"></div>
+<p class="font-oswald text-primary font-bold uppercase tracking-widest mb-4">FIND US</p>
+<h2 class="font-serif text-5xl font-bold text-black mb-10 leading-tight">
+                            We're on<br/>Shepherd's Bush Green.
+                        </h2>
+<div class="space-y-8 mb-12">
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-primary">location_on</span>
+<div>
+<p class="font-bold text-black text-lg mb-1">Shop 1, Romney Court</p>
+<p class="text-secondary">4 Shepherd's Bush Green, London W12 8PS</p>
+</div>
+</div>
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-primary">call</span>
+<div>
+<p class="font-bold text-black text-lg mb-1">020 8735 0661</p>
+<p class="text-secondary">Call to check wait times</p>
+</div>
+</div>
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-primary">schedule</span>
+<div>
+<p class="font-bold text-black text-lg mb-1">Opening Hours</p>
+<p class="text-secondary">Monday – Saturday: 10:00 – 19:00</p>
+<p class="text-secondary">Sunday: 11:00 – 18:00</p>
+</div>
+</div>
+</div>
+<a class="inline-flex items-center gap-2 bg-primary text-white font-oswald font-bold px-10 py-5 uppercase text-xl hover:translate-x-2 transition-transform shadow-lg" href="https://maps.google.com/?q=Shop+1,+Romney+Court,+4+Shepherd's+Bush+Green,+London+W12+8PS" target="_blank">
+                            Get Directions 
+                            <span class="material-symbols-outlined">directions</span>
+</a>
+</div>
+<div class="bg-white p-4 shadow-xl -rotate-1 hidden md:block">
+<img alt="The storefront signage" src="assets/hero-exterior.jpg" class="w-full grayscale h-48 object-cover"/>
+<p class="font-special text-xs mt-4 text-center text-stone-400 font-bold">BUTTERFLY BARBERSHOP BY HAMADA · ROMNEY COURT</p>
+</div>
+</div>
+<div class="map-container shadow-2xl border-4 border-white">
+<iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.504286121855!2d-0.22271812338006456!3d51.50395791030807!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760fb925da2c8b%3A0x6bba46bc20e5c9b8!2s4%20Shepherd&#39;s%20Bush%20Green%2C%20London%20W12%208PS!5e0!3m2!1sen!2suk!4v1714000000000!5m2!1sen!2suk&iwloc=near" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+</div>
+</div>
+</section>
+<!-- 8. Final CTA -->
+<section class="bg-primary-container text-white py-24">
+<div class="container mx-auto px-6 text-center">
+<h2 class="font-serif text-5xl md:text-7xl font-bold mb-6">Ready for your<br/>next cut?</h2>
+<p class="text-xl mb-12 opacity-90 max-w-2xl mx-auto">Just walk in. Hamada and the team are ready to provide the best traditional barber service in West London.</p>
+<div class="flex flex-wrap justify-center gap-6 mb-12">
+<a class="bg-white text-primary font-oswald font-bold uppercase px-10 py-5 text-xl flex items-center gap-3 shadow-xl hover:scale-105 transition-transform" href="tel:02087350661">
+<span class="material-symbols-outlined">call</span>
+                        020 8735 0661
+                    </a>
+<a class="border-2 border-white text-white font-oswald font-bold uppercase px-10 py-5 text-xl flex items-center gap-3 shadow-xl hover:bg-white/10 transition-colors" href="https://maps.google.com/?q=Shop+1,+Romney+Court,+4+Shepherd's+Bush+Green,+London+W12+8PS" target="_blank">
+<span class="material-symbols-outlined">directions</span>
+                        Get Directions
+                    </a>
+</div>
+<p class="font-special text-sm opacity-70">
+                    Traditional Barber Haircuts &amp; Shaves · Butterfly Barbershop by Hamada
+                </p>
+</div>
+</section>
+</main>
+<!-- 9. Footer -->
+<footer class="bg-[#1A1A1A] text-white py-16 px-8 flex flex-col md:flex-row justify-between items-start gap-12 border-t-4 border-primary">
+<div class="max-w-sm">
+<div class="font-serif text-2xl font-bold text-white mb-4">Butterfly Barbershop</div>
+<p class="text-stone-400 font-sans leading-relaxed mb-6">
+                Butterfly Barbershop by Hamada. Traditional Barber Haircuts &amp; Shaves. Over 30 years of trusted service on Shepherd's Bush Green.
+            </p>
+<p class="font-special text-xs text-primary">SHEPHERD'S BUSH GREEN · SINCE 1990s</p>
+</div>
+<div class="flex flex-col gap-4">
+<p class="font-oswald font-bold uppercase text-primary tracking-widest mb-2 text-sm">NAVIGATION</p>
+<a class="text-stone-400 hover:text-white transition-colors duration-200" href="#services">Services</a>
+<a class="text-stone-400 hover:text-white transition-colors duration-200" href="#about">About</a>
+<a class="text-stone-400 hover:text-white transition-colors duration-200" href="#prices">Prices</a>
+<a class="text-stone-400 hover:text-white transition-colors duration-200" href="#find-us">Find Us</a>
+</div>
+<div class="flex flex-col gap-4">
+<p class="font-oswald font-bold uppercase text-primary tracking-widest mb-2 text-sm">LOCATION</p>
+<p class="text-stone-400">Shop 1, Romney Court</p>
+<p class="text-stone-400">4 Shepherd's Bush Green</p>
+<p class="text-stone-400">London W12 8PS</p>
+<p class="text-white font-bold mt-2">020 8735 0661</p>
+</div>
+<div class="w-full md:w-auto mt-12 md:mt-0 pt-8 md:pt-0 border-t md:border-t-0 border-stone-800 self-stretch md:self-auto flex flex-col justify-between h-full">
+<p class="font-special text-[11px] text-stone-500 uppercase tracking-tighter text-right">
+                © 2024 Butterfly Barbershop by Hamada. All Rights Reserved.
+            </p>
+</div>
+</footer>
+</body></html>
